@@ -13,3 +13,6 @@ php -r "readfile('https://getcomposer.org/installer');" > composer-setup.php
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 mv composer.phar /usr/bin/composer
+
+echo 'Installation complete'
+echo 'Do not forget to set date.timezone in php.ini'
